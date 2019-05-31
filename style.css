@@ -219,14 +219,14 @@ body {
 
 
 /* I am literally guessing right now. I definitely don't feel like I have a handle of this and with all the new material today I'm a little confused.
-This is directly modeled off of dave's tutorial. */
+This is directly modeled off of dave's tutorial. I'm pretty sure these are in the wrong spots? But my brain is failing me now. */
 @media only screen and (max-width: 640px) {
 
 #masthead{
         position: static;
         
     }
-.container {
+.container .container-fluid{
     text-align: center;
     width: 100%;
     display: none;
@@ -235,7 +235,7 @@ This is directly modeled off of dave's tutorial. */
 
 @media only screen and (max-width: 768px) {
 
-.container {
+.container .container-fluid{
     text-align: center;
     width: 100%;
     display: none;
@@ -243,7 +243,7 @@ This is directly modeled off of dave's tutorial. */
 }
 
 @media only screen and (max-width: 980px) {
-    .container {
+    .container .container-fluid{
         text-align: center;
         width: 100%;
         display: none;
